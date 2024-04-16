@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Native Tourism</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: green;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #f4f4f4;
+            padding: 40px;
+            text-align: center;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+            padding: 40px;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #678;
+            color: #fff;
+            padding: 30px;
+
+        }
+	.footer-row {
+            display: flex; /* Use flexbox layout for the row */
+            justify-content: space-between; /* Align items with space between them */
+            max-width: 1200px; /* Limit the maximum width of the row */
+            margin: 0 auto; /* Center the row horizontally */
+            padding-top: 20px; /* Add top padding to separate it from the content above */
+        }
+	.footer-link {
+            color: #fff; /* Text color of the links */
+            text-decoration: none; /* Remove underline from the links */
+            padding: 0 10px; /* Add horizontal padding to the links */
+        }
+	.copyright {
+            margin-top: 20px; /* Add margin top to move the line down */
+        }
+
+
+	.column {
+            float: left; /* Float the columns to create a vertical layout */
+            width: 25%; /* Set the width of each column */
+            padding: 0 20px; /* Add padding to the columns */
+            box-sizing: border-box; /* Include padding and border in the width */
+        }
+	.row {
+	    float: left; /* Float the columns to create a vertical layout */
+            width: 25%; /* Set the width of each column */
+            padding: 0 20px; /* Add padding to the columns */
+            box-sizing: border-box; /* Include padding and border in the width */
+
+        /* Clear floats after the columns */
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        /* Additional styling for the content inside the columns */
+        .column p {
+            margin: 0; /* Remove default margin for paragraphs */
+        }
+
+
+        .banner {
+            text-align: center;
+            padding-top: 20px; /* Adjust vertical padding to center image */
+        }
+        .banner img {
+            width: 100%;
+            max-height: 500px; /* Adjust the maximum height as needed */
+        }
+	.banner {
+            background-color: #fff; /* White background color */
+            color: #333; /* Text color */
+            padding: 10px 20px; /* Adjust padding as needed */
+            text-align: center; /* Center align text */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for better visibility */
+        }
+	ul {
+            list-style-type: disc; /* Set the bullet style */
+            padding-left: 20px; /* Add padding to the left */
+        }
+
+        /* Additional styling for list items */
+        li {
+            margin-bottom: 10px; /* Add margin bottom to create a gap between items */
+        }
+
+	.image-container {
+            text-align: center; /* Center align content */
+        }
+
+	.email {
+        margin-left: 20px; /* Adjust the value as needed */
+	}
+
+
+    
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>----Welcome to Native Pathways----</h1>
+        <h2> Travel is life. 
+	     Couldnt agree more??
+<h2>
+<h3> We make it happen!! <h3>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        
+        <a href="http://+91-80-2235-2828/">Contact</a>
+
+	<a href="https://karnatakatourism.org/blogs/">Blogs</a>
+
+	<a href="https://karnatakatourism.org/karnataka-destinations/">Destinations</a>
+ 	
+	<a href="https://karnatakatourism.org/whats-new/">What's new</a>
+
+	<a href="https://karnatakatourism.org/upcoming-events-and-roadshows/">Upcoming events</a>
+
+
+
+    </nav>
+	<div class="banner">
+        <img src="chamundi.jpg" alt="Banner Image" width="500" height="300">
+	<img src="palace.jpg">
+	<img src="hill.jpg">
+
+     </div>
+
+    <section>
+        <center> <b> <h1>About Us </h1> </b> </center>
+        <p>NativePathways offers immersive cultural tourism experiences, connecting travelers with indigenous communities to explore traditions, nature, and crafts.Our tours are designed 	to foster understanding, respect, and sustainable interactions between visitors and native cultures.</p>
+
+
+<p>Popularly known as the ‘Cultural capital of Karnataka’, Mysore is a place that beautifully blends splendour of history with the living vibrancy of the traditions and culture which is reflected in the lives of its residents. All this is accompanied by the serenity of nature, making Mysore a dream destination of every travel enthusiasts. Mysore is known with many names such as Garden City, Ivory City, City of Yoga and City of Palace. Living up to every name which has been bestowed on it, Mysore should be on every traveller priority list. Mysore tourism is indeed a holiday idea that caters to everyone.</p>
+
+<p> In spite of imbibing of modern developments like any other city, Mysore still hasn’t lost touch with its history. The royal touch is still apparent in its atmosphere. Equally interesting is the religious significance of the city, which can be seen in the name Mysore, which is said to have come from the “Mahishur” which means the home of Mahishasura.
+Mysore Tourism presents a wide array of holidaying choices with something interesting for everyone. Presenting excellent architectures, historical sites, shrines and scenic beauty, it is ideal for everyone varying from couples on their honeymoon, family tour, corporate tour or a last minute travel tour plan with friends. The city of Mysore offer many interesting ways to spend your holiday.</p>
+
+<form>
+
+
+        <input type="radio" id="2" name="language" value="a">
+        <label for="a">Things to do</label><br>
+
+        <input type="radio" id="3" name="language" value="b">
+        <label for="b">How to Reach</label><br>
+
+        <input type="radio" id="4" name="language" value="c">
+        <label for="c">Information</label><br>
+
+        
+    </form>
+    
+	
+    <div id="info">
+        <!-- Information about the selected programming language will be displayed here -->
+    </div>
+	<div class="banner">
+       
+    </div>
+    <script>
+        // JavaScript to display relevant information based on selected radio button
+        const radioButtons = document.querySelectorAll('input[type="radio"]');
+        const infoDiv = document.getElementById('info');
+
+        radioButtons.forEach(radioButton => {
+            radioButton.addEventListener('change', () => {
+                const selectedLanguage = document.querySelector('input[name="language"]:checked').value;
+                displayInfo(selectedLanguage);
+            });
+        });
+
+        function displayInfo(language) {
+            let info = '';
+            switch (language) {
+
+                case 'a':
+                    info = 'Visit historic Sites such as Mysore Palace, Lalit Mahal Palace, Talakadu, Chittaranjan Palace are a few places to explore! (More details below)';
+                    break;
+                case 'b':
+                    info = 'Mysuru airport is 11 kms from city centre and has flights from select cities such as Bengaluru, Chennai, Hyderabad, Goa and Kochi. Bengaluru and Kannur are two 				nearby international airports with better flight connectivity. (180 and 160 kms from Mysuru respectively) Mysuru has a railway station and is connected to Bengaluru and Mangaluru by train. Shatabdi Express covers the distance between Bengaluru and Mysuru in about two hours.';
+                    break;
+                case 'c':
+                    info = 'Mysore, often referred to as the "Cultural Capital of Karnataka," boasts a rich tapestry of history, culture, and tradition. Home to majestic palaces like Myore 				Palace and intricate temples like Chamundeshwari Temple, Mysore is a treasure trove of architectural wonders.';
+                    break;
+               
+            }
+            infoDiv.textContent = info;
+        }
+    </script>
+
+
+</p>
+<center>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248684.8431609384!2d76.8627429405985!3d12.295810883696584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baf732ee199baf7%3A0x7a62c7f6ce4744fc!2sMysuru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1631574053223!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</center>
+
+    </section>
+     <p><b> <a href="https://www.google.com/maps/place/Mysore+Palace/@12.305163,76.6526,17z/data=!3m1!4b1!4m6!3m5!1s0x3baf701103f9a1f9:0xc37fbae2a124da0d!8m2!3d12.305163!4d76.6551749!16zL20vMDU2Y2xf?entry=ttu">Mysuru Palace:</a> </b> Constructed in Indo-Saracenic style, the magnificent Mysuru Palace also known as Amba Vilas is the official residence of the Wadiyar dynasty and the seat of the Kingdom of Mysuru. Its exquisite interiors – replete with carved mahogany ceilings, stained glass, gilded pillars and glazed tiles – epitomizes royalty and grandeur. The palace, illuminated with 97,000 lights, turns into a glorious spectacle at dusk on Sundays and public holidays. It is arguably the most visited palace in India. </p>
+ 
+     <p> <b><a href="https://www.google.com/maps/place/Lalitha+Mahal+Palace+Hotel/@12.2997357,76.6872374,17z/data=!4m14!1m2!2m1!1sLalitha+Mahal+Palace+!3m10!1s0x3baf7005079c2ff5:0xc796fc64f4676317!5m3!1s2024-04-29!4m1!1i2!8m2!3d12.2982956!4d76.6926105!15sChRMYWxpdGhhIE1haGFsIFBhbGFjZVoWIhRsYWxpdGhhIG1haGFsIHBhbGFjZZIBBWhvdGVs4AEA!16zL20vMDgyeWZt?entry=ttu">Lalit Mahal Palace:</a></b> The second largest palace in Mysuru, located near the Chamundi Hills. Built in 1921, Lalit Mahal Palace is now a heritage hotel. Built on a raised ground, the palace was fashioned on the lines of St Paul's Cathedral in London and is one of the imposing structures in Mysore.
+
+The palace is painted pure white. It was converted into a heritage hotel in 1974. It was run as a part of the Ashok Group of the India Tourism Development Corporation (ITDC) under the Government of India until 2018 when it was transferred to a unit of the Government of Karnataka. However, a veneer of the original royal ambience of the palace is maintained.</p>
+
+
+     <p> <b><a href="https://www.google.com/maps/place/Talakadu,+Karnataka+571122/@12.1886546,77.018237,15z/data=!3m1!4b1!4m6!3m5!1s0x3baf19c6637bfdbb:0x9a2bd0b16d1dc88c!8m2!3d12.1946782!4d77.030539!16zL20vMDlubWh2?entry=ttu">Talakadu:</a></b> A place of tremendous archaeological significance, Talakad is known for the 30 temples buried under the sands. Legend says that the temples of Talakad buried under the sands due to a curse. Excavations led to the discovery of several temples - mostly dedicated to Lord Shiva - belonging to the Hoysala, Ganga and Chola dynasties. Devotees throng this temple town during the Panchalinga Darshan held once in 12 years. The origin of the town is lost in antiquity, but one tradition is that its name was derived from two Kirāta twin brothers, Tala and Kādu. The brothers cut down a tree after seeing wild elephants worship it and discovered it contained an image of Shiva and that the elephants were rishis transformed. The tree being miraculously restored, all obtained mōksha and the place was named Tala-kādu, which was translated into Sanskrit as Dala-vana. Two stone images declared to represent the brothers are pointed out in front of the temple Veerabadra swamy. In a later age, Rāma is said to have halted here on his expedition to Lanka.</p>
+
+
+     <p> <b> <a href="https://www.google.com/maps/place/Chittaranjan+Palace/@12.3222639,76.6149004,17z/data=!3m1!4b1!4m10!3m9!1s0x3baf7008bf1f3c89:0xf622c9fb2b9245c0!5m3!1s2024-04-29!4m1!1i2!8m2!3d12.3222639!4d76.6174753!16s%2Fg%2F11dxchg9f8?entry=ttu">Chittaranjan Palace:</a></b> Chittaranjan Palace was built by the Maharaja of Mysuru for his sister in 1916. Chittaranjan palace is located on the Hunasur road. Chittaranjan Palace was built by the Maharaja of Mysore for his sister in 1916. The palace was sold to a Mysorean family who then converted it into the headquarters of a film company, "Premier Studios". Many films and TV shows were shot, including the famous TV serial The Sword of Tipu Sultan. The studio was closed down after a fire broke out but was still owned and operated by the same family that owned Premier Studio. The building was used as a private residence until it was converted into a hotel, called "Green Hotel" in the 1970s. The same family still has a major stake in the hotel and the residence as a whole.</p>
+
+
+	<p><b><a href="https://www.google.com/maps/place/Mysuru+Zoo/@12.2991096,76.6434314,15z/data=!4m10!1m2!2m1!1smysore+zoo!3m6!1s0x3baf7113111247d3:0x1db441bf260a5e0!8m2!3d12.3003123!4d76.6680818!15sCgpteXNvcmUgem9vWgwiCm15c29yZSB6b2-SAQN6b2-aASNDaFpEU1VoTk1HOW5TMFZKUTBGblNVUndObVEzWkVkUkVBReABAA!16s%2Fg%2F11p12m2_ds?entry=ttu"> Mysuru Zoo:</a></b> The Mysuru Zoo or the Sri Chamarajendra Zoological Gardens is the most popular zoo in Karnataka and is one of the oldest zoos in the country, established in 1892. The zoo is home to abundant flora and fauna and is known for 1,450 species of animals and 168 species of birds belonging to more than 25 countries. Mysuru Zoo is a must visit when in Mysuru, particularly for animal lovers and families with kids. Most popular animals in Mysuru Zoo are Tigers (including white tiger), Lions, Jaguars, Giraffe, Zebra, Leopards, Rhinos, Birds, Elephants and Hippopotamus.</p>
+
+
+
+
+ <p><b><a href="https://www.google.com/maps/place/Nagarahole+Tiger+Reserve/@12.0734366,76.1485066,17z/data=!3m1!4b1!4m6!3m5!1s0x3ba5ea8fc89ad29b:0xec955245948111ec!8m2!3d12.0734366!4d76.1510815!16zL20vMDk2enpz?entry=ttu"> Nagarahole National Park:</a></b> Situated between the Mysuru plateau in Karnataka and the Nilgiri Mountains of Tamil Nadu, Nagarahole is a 640 sq. km. sanctuary that is home to an abundant variety of wildlife. Rajiv Gandhi National Park is an important Tiger Reserve in Karnataka and is a major hub of conservation under Project Tiger and Project Elephant, the sanctuary is host to the largest herd of Asiatic elephants in the world and innumerable species of birds, flora and fauna including large predators, reptiles, gaurs, deer, bears and smaller animals. Nagarahole is a must visit national park for wildlife enthusiasts and photographers as the forest safari offers a very high probability of being able to spot Bengal tigers and Asiatic elephants in their natural habitat. Nagarahole national park is also home to a large number of wild dogs, leopards and bears. Commonly spotted herbivores animals are wild gaurs, wild boar, sambar deer, Antelope, spotted deers as well as several species of birds.</p>
+
+
+<div class="banner">
+        <img src="zoo.jpg" alt="Banner Image" width="500" height="330">
+	<img src="talakadu.jpg">
+	<img src="hole.jpg">
+
+     </div>
+
+
+<p><b> <a href="https://www.google.com/maps/place/Chamundeshwari+Temple/@12.2930167,76.6805286,17z/data=!3m1!4b1!4m6!3m5!1s0x3baf702a0b500001:0xcf9d504e04cb0def!8m2!3d12.2930167!4d76.6831035!16s%2Fg%2F11kj3f2zby?entry=ttu">Chamundeshwari Temple:</a></b> Located 12 km from Mysuru, the Chamundi Hills is home to the Goddess Chamundeshwari, the patron deity of the Mysuru Royal Family. Built in the Dravidian style architecture, the 17th-century Chamundeshwari temple with a richly-attired image of the deity also has a huge statue of Mahishasura near the entrance. An older Ganga-era Mahabaleshwara Temple is also located on the hilltop. According to the legends, the Goddess defeated the demon king Mahishasura, on this hill. Halfway up the hill, you can also see the monolithic Nandi, believed to be one among the largest in the country.Said to have been 1000+ years old, Chamundeshwari temple featuring Goddess Durga received patronage from all rulers such as Hoysalas, Vijayanagara Empire and Mysuru Wodeyars. The temple tower (Raja Gopura) was added by Krishna Raja Wodeyar III in 1830.</p>
+
+
+
+<p><b> <a href="https://www.google.com/maps/place/Gommatagiri,+Bettadur,+Karnataka+571103/@12.3704389,76.4777133,15z/data=!3m1!4b1!4m6!3m5!1s0x3baf7dd8f83c386d:0xa9d89780c30ca93a!8m2!3d12.3704393!4d76.4880131!16s%2Fm%2F09rxbxs?entry=ttu">Gomatagiri(24km):</a></b> Though not as tall as the one at Shravanabelagola, the statue of Gomateshwara at Gomatagiri is still an imposing figure, at 10 m tall. Shrines with the footprints of the 24 Jain Thirthankaras are scattered around the hillock. From the top, one can view the Krishna Raja Sagara Dam and the Brindavan Gardens, at a distance. Gommatagiri comes alive during the head-anointing ceremony of Lord Bahubali every September. Gommatagiri is an acclaimed Jain centre. The 700-year-old statue of Bahubali (also known as Gomateshwara) is erected atop a 50 meter tall hillock called 'Shravana Gudda'. The statue of Gomateshwara at Gommatagiri is an early Vijayanagara creation in granite. It has serene facial expressions and curly hairs. This Jain centre attracts many pilgrims during the annual "Maha masthakabhisekha" in September. The local Jains have a belief that the entire region was a bastion of Jainism at least since the 2nd Century BC.</p>
+
+
+
+<p><b><a href="https://www.google.com/maps/place/Nanjangud,+Karnataka/@12.1132215,76.6649457,15z/data=!3m1!4b1!4m6!3m5!1s0x3baf682bfe1f29eb:0xd1e5927b3c8e5f8!8m2!3d12.1159697!4d76.678249!16zL20vMDZnZDJx?entry=ttu"> Nanjangud (23 km):</a> </b> Nanjangud owes its name to the ancient temple of Nanjundeshwara situated on the banks of the River Kapila. An architectural marvel, the temple stands out for its remarkable tiered gopura, stucco work and ornately sculpted mythological scenes. The temple, with Lord Srikantheshwara as the main deity, has an impressive gallery of 122 metallic figures on Shaivite themes and a stone Nandi facing the sanctum sanctorum. Nanjangud is also famous for the exotic Nanjangud rasabale – a unique banana variety grown in and around here, which was given a Geographical Indication (GI) tag. Nanjangud is also called Dakshina Kashi (southern Kashi). This town is also famous for a type of banana grown in the region called the Nanjanagoodu rasabale. Nanjangud's local administrative unit was designated as a Municipal Committee in 2015 by including Devirammanahalli and Kallahalli village.</p>
+
+
+
+	<footer class="clearfix">
+        <!-- Column 1 -->
+        <div class="column">
+            <h3>INSTAGRAM </h3>
+	    
+            <p> @native_pathways</p>
+        </div>
+
+        <!-- Column 2 -->
+        <div class="column">
+            <h3>QUICK LINKS</h3>
+	<ul>
+            <li><a href="https://karnatakatourism.org/where-to-stay/">Accomodation</a> </li>
+	    <li><a href="https://karnatakatourismsociety.org/index.php">Karnataka Tourism Society</a> </li>
+            <li><a href="https://www.kstdc.co/">KSDTC</a> </li>
+            <li><a href="https://www.junglelodges.com/">Jungle Lodges and Resorts</a> </li>
+	    <li><a href="https://www.karnatakaecotourism.com/">Karnataka Eco Tourism</a> </li>
+            <li><a href="https://kttf.karnatakatourism.org/">KTTF</a> </li>
+            <li><a href="https://karnatakatourism.org/department/tourism-policy/">Karnataka Tourism Policy</a> </li>
+            <li><a href="https://karnatakatourism.org/travel-tips/">Travel Tips</a> </li>
+	</ul>
+        </div>
+
+        <!-- Column 3 -->
+        <div class="column">
+            <h3>Contact US</h3>
+            <p>Department of Tourism, 4th Floor/Level,No 3, Embassy Icon, Infantry Road,Bengaluru-560001Tel: +91-80-2235-2828</p> <p> Email: feedback@karnatakatourism.org</p>
+        </div>
+
+        <!-- Column 4 -->
+        <div class="column">
+            <h3>--MORE--</h3>
+            <p>Come and explore the hidden gems of Karnataka. The sixth largest state in India is famous for its wildlife, heritage, temples, monuments, beaches, adventure, food and much 		more. </p>
+        </div>
+    
+	<p>. </p>
+
+
+    </footer>
+
+
+	<footer class="footer">
+
+	<center> <p> &copy;2024 Native Pathways All Rights Reserved </p> </center>
+
+</body>
+</html>
